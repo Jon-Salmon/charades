@@ -1,0 +1,105 @@
+Apple
+Banana
+Carrot
+Pizza
+Hamburger
+Hot Dog
+Sandwich
+Spaghetti
+Taco
+Burrito
+Sushi
+Salad
+Ice Cream
+Cookie
+Donut
+Cake
+Cupcake
+Cheeseburger
+French Fries
+Popcorn
+Potato Chips
+Avocado
+Pineapple
+Orange
+Grapes
+Cucumber
+Tomato
+Broccoli
+Spinach
+Lettuce
+Cauliflower
+Mushroom
+Onion
+Garlic
+Chicken Nugget
+Fish
+Steak
+Lobster
+Crab
+Shrimp
+Bacon
+Sausage
+Turkey
+Chicken Breast
+Ham
+Meatballs
+Ribs
+Rice
+Noodles
+Pancake
+Waffle
+Muffin
+Granola
+Yogurt
+Cereal
+Bagel
+Croissant
+Toast
+Peach
+Plum
+Watermelon
+Cantaloupe
+Kiwi
+Papaya
+Mango
+Cherries
+Blackberries
+Strawberries
+Raspberry
+Blueberry
+Grapefruit
+Lemon
+Lime
+Tangerine
+Artichoke
+Sweet Potato
+Zucchini
+Asparagus
+Eggplant
+Chili
+Sauerkraut
+Kimchi
+Feta Cheese
+Cheddar Cheese
+Mozzarella
+Brie
+Parmesan
+Ricotta
+Pine Nut
+Almond
+Cashew
+Peanut Butter
+Honey
+Maple Syrup
+Olives
+Pickles
+Mustard
+Ketchup
+Mayonnaise
+Soy Sauce
+Vinegar
+Salsa
+Hummus
+Guacamole
+Coconut
