@@ -22,8 +22,9 @@ enum GameEvent { pass, skip, timer, righted }
 
 class GameScreen extends StatefulWidget {
   final GameCategory category;
+  final List<String>? previouslyUsedWords;
 
-  const GameScreen(this.category, {super.key});
+  const GameScreen(this.category, this.previouslyUsedWords, {super.key});
 
   @override
   State<GameScreen> createState() => _GameScreenState();
@@ -32,6 +33,7 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   int _currentWordIndex = 0;
 
+  List<String> _wordsAll = [];
   List<String> _words = [];
 
   late final FSM<GameState, GameEvent> fsm;
@@ -52,7 +54,13 @@ class _GameScreenState extends State<GameScreen> {
     _score = Score(widget.category);
 
     widget.category.loadWords().then((value) {
-      _words = List.from(value);
+      _wordsAll = List.from(value);
+
+      _words = List.from(_wordsAll);
+      if (widget.previouslyUsedWords != null) {
+        _words.removeWhere((element) => widget.previouslyUsedWords!.contains(element));
+      }
+
       _words.shuffle();
     });
 
@@ -174,6 +182,7 @@ class _GameScreenState extends State<GameScreen> {
 
     if (_currentWordIndex >= _words.length - 1) {
       _currentWordIndex = -1;
+      _words = List.from(_wordsAll);
       _words.shuffle();
     }
 

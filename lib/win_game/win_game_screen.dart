@@ -66,7 +66,8 @@ class WinGameScreen extends StatelessWidget {
           children: [
             MyButton(
               onPressed: () {
-                GoRouter.of(context).replace('/play/session/${score.category.name}');
+                GoRouter.of(context)
+                    .replace('/play/session/${score.category.name}', extra: score.items.map((e) => e.word).toList());
               },
               child: const Text('Play Again'),
             ),

@@ -35,11 +35,15 @@ final router = GoRouter(
                 pageBuilder: (context, state) {
                   final categoryName = state.pathParameters['category']!;
                   final category = gameCategories.singleWhere((e) => e.name == categoryName);
+
+                  final previouslyUsedWords = state.extra as List<String>?;
+
                   return buildMyTransition<void>(
                     key: const ValueKey('category'),
                     color: context.watch<Palette>().backgroundPlaySession,
                     child: GameScreen(
                       category,
+                      previouslyUsedWords,
                       key: const Key('play session'),
                     ),
                   );
