@@ -78,12 +78,12 @@ class _GameScreenState extends State<GameScreen> {
     }, onEnter: {
       GameState.skipped: () {
         _nextWord(false);
-        Timer(const Duration(milliseconds: 1500), () => fsm.fire(GameEvent.timer));
+        Timer(const Duration(milliseconds: 1000), () => fsm.fire(GameEvent.timer));
         stopwatch.onStopTimer();
       },
       GameState.passed: () {
         _nextWord(true);
-        Timer(const Duration(milliseconds: 1500), () => fsm.fire(GameEvent.timer));
+        Timer(const Duration(milliseconds: 1000), () => fsm.fire(GameEvent.timer));
         stopwatch.onStopTimer();
       },
     }, onExit: {
@@ -100,8 +100,9 @@ class _GameScreenState extends State<GameScreen> {
       DeviceOrientation.landscapeLeft,
     ]);
 
-    Timer(const Duration(seconds: 3), () => fsm.fire(GameEvent.timer));
-    stopwatch.setPresetSecondTime(4);
+    // Start timer
+    Timer(const Duration(seconds: 5), () => fsm.fire(GameEvent.timer));
+    stopwatch.setPresetSecondTime(6);
     stopwatch.onStartTimer();
 
     _accelSub = accelerometerEventStream().listen(
@@ -129,12 +130,19 @@ class _GameScreenState extends State<GameScreen> {
     );
 
     _endSub = stopwatch.fetchEnded.listen((value) {
-      if (mounted) {
-        GoRouter.of(context).go('/play/won', extra: {'score': _score});
-      }
+      roundedEnded();
     });
 
     super.initState();
+  }
+
+  void roundedEnded() {
+    context.read<AudioController>().playSfx(SfxType.woosh);
+
+    _score.items.add(ScoreItem(_words[_currentWordIndex], false));
+    if (mounted) {
+      GoRouter.of(context).go('/play/won', extra: {'score': _score});
+    }
   }
 
   @override
