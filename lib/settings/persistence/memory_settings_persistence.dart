@@ -17,4 +17,10 @@ class MemoryOnlySettingsPersistence implements SettingsPersistence {
 
   @override
   Future<void> saveVibrationsOn(bool value) async => vibrationsOn = value;
+
+  @override
+  Future<bool> getHasSeenHowToPlay({required bool defaultValue}) async => false;
+
+  @override
+  Future<void> saveHasSeenHowToPlay(bool value) async {}
 }

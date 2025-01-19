@@ -10,4 +10,8 @@ abstract class SettingsPersistence {
   Future<bool> getVibrationsOn({required bool defaultValue});
 
   Future<void> saveVibrationsOn(bool value);
+
+  Future<bool> getHasSeenHowToPlay({required bool defaultValue});
+
+  Future<void> saveHasSeenHowToPlay(bool value);
 }

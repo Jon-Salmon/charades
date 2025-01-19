@@ -18,6 +18,9 @@ class SettingsController {
   /// Whether or not the sound effects (sfx) are on.
   ValueNotifier<bool> vibrationsOn = ValueNotifier(true);
 
+  /// Whether or not the user has seen the how to play dialog.
+  ValueNotifier<bool> hasSeenHowToPlay = ValueNotifier(false);
+
   /// Creates a new instance of [SettingsController] backed by [store].
   ///
   /// By default, settings are persisted using [LocalStorageSettingsPersistence]
@@ -37,11 +40,17 @@ class SettingsController {
     _store.saveVibrationsOn(vibrationsOn.value);
   }
 
+  void setHasSeenHowToPlay() {
+    hasSeenHowToPlay.value = true;
+    _store.saveHasSeenHowToPlay(true);
+  }
+
   /// Asynchronously loads values from the injected persistence store.
   Future<void> _loadStateFromPersistence() async {
     final loadedValues = await Future.wait([
       _store.getSoundsOn(defaultValue: true).then((value) => soundsOn.value = value),
       _store.getVibrationsOn(defaultValue: true).then((value) => vibrationsOn.value = value),
+      _store.getHasSeenHowToPlay(defaultValue: false).then((value) => hasSeenHowToPlay.value = value),
     ]);
 
     _log.fine(() => 'Loaded settings: $loadedValues');

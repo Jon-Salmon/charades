@@ -1,4 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:basic/how_to_play/how_to_play_dialog.dart';
+import 'package:basic/settings/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -12,6 +14,7 @@ class CategorySelectionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final palette = context.watch<Palette>();
+    final settings = context.watch<SettingsController>();
 
     return Scaffold(
       backgroundColor: palette.backgroundLevelSelection,
@@ -20,6 +23,7 @@ class CategorySelectionScreen extends StatelessWidget {
         child: Column(
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 InkResponse(
                   onTap: () => GoRouter.of(context).pop(),
@@ -28,6 +32,11 @@ class CategorySelectionScreen extends StatelessWidget {
                     semanticLabel: 'Back',
                   ),
                 ),
+                IconButton(
+                    onPressed: () {
+                      showHowToPlayDialog(context, fromHelp: true);
+                    },
+                    icon: Icon(Icons.help_outline_outlined, size: 36)),
               ],
             ),
             const SizedBox(height: 30),
@@ -51,8 +60,14 @@ class CategorySelectionScreen extends StatelessWidget {
                   return Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: InkWell(
-                      onTap: () {
-                        GoRouter.of(context).go('/play/session/${data.name}');
+                      onTap: () async {
+                        if (!settings.hasSeenHowToPlay.value) {
+                          await showHowToPlayDialog(context);
+                          settings.setHasSeenHowToPlay();
+                        }
+                        if (context.mounted) {
+                          GoRouter.of(context).go('/play/session/${data.name}');
+                        }
                       },
                       child: Container(
                         color: palette.backgroundMain,

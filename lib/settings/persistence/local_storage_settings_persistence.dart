@@ -30,4 +30,16 @@ class LocalStorageSettingsPersistence extends SettingsPersistence {
     final prefs = await instanceFuture;
     await prefs.setBool('vibrationsOn', value);
   }
+
+  @override
+  Future<bool> getHasSeenHowToPlay({required bool defaultValue}) async {
+    final prefs = await instanceFuture;
+    return prefs.getBool('hasSeenHowToPlay') ?? defaultValue;
+  }
+
+  @override
+  Future<void> saveHasSeenHowToPlay(bool value) async {
+    final prefs = await instanceFuture;
+    await prefs.setBool('hasSeenHowToPlay', value);
+  }
 }

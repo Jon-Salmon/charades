@@ -46,6 +46,7 @@ class _GameScreenState extends State<GameScreen> {
   bool isVertical = false;
 
   final stopwatch = StopWatchTimer(mode: StopWatchMode.countDown);
+  Timer? _timer;
 
   @override
   void initState() {
@@ -86,12 +87,14 @@ class _GameScreenState extends State<GameScreen> {
     }, onEnter: {
       GameState.skipped: () {
         _nextWord(false);
-        Timer(const Duration(milliseconds: 1000), () => fsm.fire(GameEvent.timer));
+        _timer?.cancel();
+        _timer = Timer(const Duration(milliseconds: 1000), () => fsm.fire(GameEvent.timer));
         stopwatch.onStopTimer();
       },
       GameState.passed: () {
         _nextWord(true);
-        Timer(const Duration(milliseconds: 1000), () => fsm.fire(GameEvent.timer));
+        _timer?.cancel();
+        _timer = Timer(const Duration(milliseconds: 1000), () => fsm.fire(GameEvent.timer));
         stopwatch.onStopTimer();
       },
     }, onExit: {
@@ -109,7 +112,7 @@ class _GameScreenState extends State<GameScreen> {
     ]);
 
     // Start timer
-    Timer(const Duration(seconds: 5), () => fsm.fire(GameEvent.timer));
+    _timer = Timer(const Duration(seconds: 5), () => fsm.fire(GameEvent.timer));
     stopwatch.setPresetSecondTime(6);
     stopwatch.onStartTimer();
 
@@ -166,6 +169,7 @@ class _GameScreenState extends State<GameScreen> {
     _endSub.cancel();
 
     stopwatch.dispose(); // Need to call dispose function.
+    _timer?.cancel();
 
     super.dispose();
   }
