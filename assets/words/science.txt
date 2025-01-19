@@ -132,7 +132,6 @@ Covalent Bond
 Ionic Bond
 Hydrogen Bond
 Polymer
-Molecule
 Isotope
 Alkali Metals
 Transition Metals

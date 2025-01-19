@@ -9,11 +9,9 @@ McDonald's
 Microsoft
 Adidas
 Pepsi
-BMW
 Sony
 Intel
 Disney
-Nike
 Ford
 Mercedes-Benz
 Honda
@@ -44,7 +42,6 @@ Chrysler
 Unilever
 Canon
 Levi’s
-Gucci
 Ray-Ban
 Burberry
 Vans
@@ -64,7 +61,6 @@ Chick-fil-A
 Caterpillar
 T-Mobile
 Snapchat
-Spotify
 Lego
 PlayStation
 Xbox
@@ -72,12 +68,9 @@ LinkedIn
 eBay
 Uber
 Pinterest
-Snapchat
 Airbnb
 Ralph Lauren
 Zara
-Burberry
-Samsung
 Nissan
 Red Bull
 Target
@@ -89,24 +82,20 @@ Colgate-Palmolive
 Swarovski
 Hershey’s
 Fender
-Microsoft
 John Deere
 Taco Bell
 Kraft Heinz
 Acer
 GE
 Hugo Boss
-Volkswagen
 Fiji Water
 Corona
 Tommy Hilfiger
 BMW
 Porsche
-Nestlé
 Whirlpool
 Tupperware
 Kia
-Chanel
 IKEA
 Nikon
 PepsiCo

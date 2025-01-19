@@ -7,7 +7,6 @@ Cats
 Chicago
 Mamma Mia!
 Rent
-Les Misérables
 West Side Story
 The Sound of Music
 Fiddler on the Roof
@@ -29,9 +28,7 @@ Dear Evan Hansen
 Waitress
 The Rocky Horror Picture Show
 Newsies
-Les Misérables
 The Color Purple
-Rent
 The Greatest Showman
 Come From Away
 Jersey Boys
@@ -45,7 +42,6 @@ Porgy and Bess
 South Pacific
 Guys and Dolls
 Oklahoma!
-Mamma Mia!
 Hadestown
 The Band's Visit
 Evita
@@ -59,28 +55,15 @@ An American in Paris
 A Little Night Music
 The Music Man
 Matilda
-The Book of Mormon
-The Lion King
-Les Misérables
-Wicked
-Kinky Boots
-Dear Evan Hansen
-The Phantom of the Opera
 Oliver!
 Aida
-The Lion King
 The Great Comet
 Moulin Rouge!
 Falsettos
 Spring Awakening
-Pippin
 Legally Blonde
-Rent
 Chess
-The Producers
-West Side Story
 Miss Saigon
-Hairspray
 Ragtime
 Heathers
 Godspell

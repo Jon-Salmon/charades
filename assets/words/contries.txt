@@ -16,7 +16,6 @@ Mexico
 South Africa
 Argentina
 Saudi Arabia
-Turkey
 Sweden
 Norway
 Finland
@@ -31,7 +30,6 @@ Portugal
 Ireland
 New Zealand
 Singapore
-South Korea
 Egypt
 Israel
 United Arab Emirates
@@ -51,7 +49,6 @@ Peru
 Ukraine
 Czech Republic
 Romania
-Poland
 Hungary
 Bulgaria
 Croatia

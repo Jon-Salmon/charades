@@ -61,7 +61,6 @@ Droid
 Womp rat
 Japor snippet
 Porg
-Womp rat
 Sarlacc Pit
 Jedi Council
 Bantha
@@ -74,7 +73,6 @@ Kylo Ren’s Helmet
 Death Star Plans
 The Kessel Run
 The Force Awakens
-Revenge of the Sith
 Clone Trooper
 Jedi Knight
 Sith Lord

@@ -17,7 +17,6 @@ Jack Nicklaus
 Martina Navratilova
 Simone Biles
 Wayne Gretzky
-Muhammad Ali
 Shaquille O'Neal
 Steffi Graf
 Billie Jean King
@@ -26,8 +25,6 @@ Michael Schumacher
 Mia Hamm
 Jackie Robinson
 Manny Pacquiao
-Shaquille O'Neal
-Cristiano Ronaldo
 Bobby Orr
 Larry Bird
 Magic Johnson
@@ -46,39 +43,22 @@ Wilt Chamberlain
 Jerry Rice
 Barry Sanders
 George Foreman
-Kareem Abdul-Jabbar
 Elinor Ostrom
-Serena Williams
-Shaquille O'Neal
 Sandy Koufax
-Roger Federer
 Roger Clemens
 Kevin Durant
-Jack Nicklaus
 Paul Pogba
-Hakeem Olajuwon
 Steph Curry
-Jerry Rice
-Wayne Gretzky
-Tom Brady
-Babe Ruth
 Mike Tyson
 Teddy Roosevelt
 Oscar De La Hoya
-Steffi Graf
-Cristiano Ronaldo
 Tony Hawk
-Muhammad Ali
 Danica Patrick
 Cheryl Miller
 Eli Manning
-Babe Ruth
 Andre Agassi
-Kareem Abdul-Jabbar
 Dan Marino
 Nadia Comaneci
-Kobe Bryant
-LeBron James
 Mickey Mantle
 George Best
 Kenny Dalglish

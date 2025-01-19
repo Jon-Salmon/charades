@@ -42,7 +42,6 @@ The Triwizard Cup
 Dark Mark
 Invisibility Cloak
 Mirror of Erised
-The Philosopher's Stone
 The Prisoner of Azkaban
 The Half-Blood Prince
 The Order of the Phoenix
@@ -76,7 +75,6 @@ Fizzing Whizzbees
 Firebolt
 Nimbus 2000
 Weasley Wizard Wheezes
-Howler
 Unforgivable Curses
 Pensieve
 The Dark Lord

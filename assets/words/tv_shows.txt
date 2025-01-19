@@ -25,7 +25,6 @@ Money Heist
 The Flash
 Arrow
 Supernatural
-Stranger Things
 The Marvelous Mrs. Maisel
 The Umbrella Academy
 Narcos: Mexico
@@ -61,28 +60,22 @@ Buffy the Vampire Slayer
 House
 The Rookie
 The Great British Bake Off
-Narcos
 The Good Doctor
 The Golden Girls
 How to Get Away with Murder
 Supergirl
 Suits
-Prison Break
 Parks and Recreation
 Brooklyn Nine-Nine
 Hawaii Five-0
 Mad Men
 The OA
 The Outsider
-The Flash
 Legends of Tomorrow
-Fargo
 Tales from the Loop
 The Last Kingdom
 Broadchurch
 The Haunting of Hill House
-The Mandalorian
-The Boys
 Curb Your Enthusiasm
 Killing Eve
 Vikings: Valhalla
@@ -93,8 +86,5 @@ Scandal
 Teen Wolf
 Glee
 The Walking Dead: World Beyond
-Doctor Who
-Narcos: Mexico
 Lost
-The Witcher
 Castle

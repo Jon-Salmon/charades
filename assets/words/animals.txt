@@ -89,7 +89,6 @@ Clam
 Cockroach
 Crane
 Dove
-Flamingo
 Geese
 Guinea Pig
 Hyena

@@ -41,12 +41,10 @@ The Hunger Games
 The Princess Bride
 E.T. the Extra-Terrestrial
 The Matrix Reloaded
-Pulp Fiction
 Citizen Kane
 The Big Lebowski
 The Truman Show
 The Good, the Bad and the Ugly
-The Lion King
 Jaws
 The Great Gatsby
 12 Angry Men
@@ -58,18 +56,13 @@ Frozen
 The Pursuit of Happyness
 A Beautiful Mind
 The Pianist
-The Shawshank Redemption
 The Wolf of Wall Street
 The Graduate
 The King's Speech
-The Godfather: Part II
 Whiplash
 The Shape of Water
 La La Land
-Interstellar
 The Intouchables
-Gladiator
-The Dark Knight
 Once Upon a Time in Hollywood
 The Hateful Eight
 The Secret Life of Walter Mitty
@@ -88,13 +81,11 @@ Spider-Man: No Way Home
 The Matrix Revolutions
 Jurassic World
 Avatar: The Way of Water
-The Lion King (2019)
 Spider-Man: Into the Spider-Verse
 A Quiet Place
 Bohemian Rhapsody
 The Greatest Showman
 Rocketman
-La La Land
 Blade Runner 2049
 Aquaman
 Dunkirk

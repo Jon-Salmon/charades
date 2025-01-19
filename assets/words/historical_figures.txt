@@ -30,11 +30,9 @@ Leon Trotsky
 Mao Zedong
 Harriet Tubman
 Joan of Arc
-Napoleon Bonaparte
 Walt Disney
 Florence Nightingale
 Marco Polo
-Abraham Lincoln
 Queen Elizabeth I
 Joseph Stalin
 Nikola Tesla
@@ -72,9 +70,7 @@ John Locke
 Michelangelo
 Zora Neale Hurston
 Susan B. Anthony
-Benjamin Franklin
 Indira Gandhi
-Theodore Roosevelt
 Ruth Bader Ginsburg
 Harriet Beecher Stowe
 William the Conqueror

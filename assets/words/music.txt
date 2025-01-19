@@ -9,7 +9,6 @@ Adele
 Uptown Funk
 Mark Ronson ft. Bruno Mars
 Someone Like You
-Adele
 Happier
 Marshmello ft. Bastille
 All of Me
@@ -25,13 +24,11 @@ Nirvana
 Hey Jude
 The Beatles
 Perfect
-Ed Sheeran
 Like a Rolling Stone
 Bob Dylan
 Thriller
 Michael Jackson
 Thinking Out Loud
-Ed Sheeran
 Stayin' Alive
 Bee Gees
 I Will Always Love You
@@ -43,19 +40,14 @@ Oasis
 Hotel California
 Eagles
 I Want to Hold Your Hand
-The Beatles
 Hallelujah
 Leonard Cohen
 Beat It
-Michael Jackson
-Rolling in the Deep
-Adele
 Don't Stop Believin'
 Journey
 Livin' on a Prayer
 Bon Jovi
 Billie Jean
-Michael Jackson
 Shallow
 Lady Gaga & Bradley Cooper
 Take On Me
@@ -67,7 +59,4 @@ Smash Mouth
 Single Ladies
 Beyoncé
 I Wanna Dance with Somebody
-Whitney Houston
-Lose Yourself
-Eminem
 Eye of the Tiger

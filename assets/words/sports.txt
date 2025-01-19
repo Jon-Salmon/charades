@@ -59,7 +59,6 @@ Cyclocross
 CrossFit
 Powerlifting
 Weightlifting
-Archery
 Shooting
 Skating
 Speed skating
@@ -71,10 +70,8 @@ Field hockey
 Ice hockey
 Bowling
 Golfing
-Cricket
 Horse racing
 Rodeo
-Softball
 Netball
 Rugby sevens
 Speed climbing
@@ -82,7 +79,6 @@ Parkour
 Paddleboarding
 Squash
 Pickleball
-Volleyball
 Tug of war
 Water skiing
 Bungee jumping
