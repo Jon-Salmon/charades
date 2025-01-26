@@ -193,16 +193,7 @@ To change what preferences are saved and how, edit files in
 
 # Icon
 
-To update the launcher icon, first change the files
-`assets/icon-adaptive-foreground.png` and `assets/icon.png`.
-Then, run the following:
-
-```bash
-dart run flutter_launcher_icons:main
-```
-
-You can [configure](https://github.com/fluttercommunity/flutter_launcher_icons#book-guide)
-the look of the icon in the `flutter_icons:` section of `pubspec.yaml`.
+To generate the icon files, visit (IconKitchen)[https://icon.kitchen/i/H4sIAAAAAAAAAzWPPQ7CMAyF72LWDBQJCXoBViS6IQan%2BWlEUpckBaGqd8eJ6BI5n%2F2enxd4o591gnYBhfHZDTpoaA36pAVI230n%2FoKNqJweMwgwG3MBra7gikq50RaPTBO0JwHR2SHXSlLOFGrptSlsLcaXzZFFPXmKDVvujmiMadi0okNB0uwZMsLRet573lf9bcCaIr1mF3tuCMglu%2FqH56FAavbltDtrVSSneMhR4vejJTzWH%2Bu%2B1CH9AAAA] and upload assets/icons/icon_blank.png.
 
 
 # Troubleshooting

@@ -4,7 +4,7 @@ description: A basic game built in Flutter.
 # Prevent accidental publishing to pub.dev.
 publish_to: 'none'
 
-version: 0.0.1+1
+version: 0.1.0+1
 
 environment:
   sdk: ^3.5.0
@@ -30,7 +30,6 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.14.0
   test: ^1.24.3
   flutter_gen_runner: ^5.8.0
   build_runner: ^2.4.14
@@ -47,13 +46,6 @@ flutter:
     - family: Permanent Marker
       fonts:
         - asset: assets/fonts/Permanent_Marker/PermanentMarker-Regular.ttf
-
-flutter_launcher_icons:
-  android: true
-  ios: true
-  image_path: "assets/icons/icon.png"
-  adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "assets/icons/icon-adaptive-foreground.png"
 
 flutter_gen:
   output: lib/generated/
