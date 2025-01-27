@@ -1,10 +1,10 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:basic/how_to_play/how_to_play_dialog.dart';
-import 'package:basic/settings/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../how_to_play/how_to_play_dialog.dart';
+import '../settings/settings.dart';
 import '../style/palette.dart';
 import 'category.dart';
 

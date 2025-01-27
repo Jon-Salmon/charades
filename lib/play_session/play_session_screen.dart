@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:basic/audio/audio_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
@@ -11,6 +10,7 @@ import 'package:simple_fsm/simple_fsm.dart';
 import 'package:stop_watch_timer/stop_watch_timer.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
+import '../audio/audio_controller.dart';
 import '../audio/sounds.dart';
 import '../game_internals/score.dart';
 import '../level_selection/category.dart';
